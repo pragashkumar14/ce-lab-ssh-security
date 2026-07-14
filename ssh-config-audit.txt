@@ -1,0 +1,4 @@
+=== SSH Security Configuration Audit ===
+passwordauthentication no
+permitrootlogin without-password
+pubkeyauthentication yes

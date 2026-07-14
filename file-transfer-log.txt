@@ -1,0 +1,14 @@
+SCP File Transfer Log
+======================
+
+1. Copy TO instance (single file):
+   Command: scp test-file.txt bootcamp-web:~/
+   Result: Success
+
+2. Copy TO instance (directory):
+   Command: scp -r my-website bootcamp-web:~/
+   Result: Success - verified with ssh bootcamp-web "ls -la ~/my-website/", index.html and style.css both present with correct permissions
+
+3. Copy FROM instance:
+   Command: scp bootcamp-web:~/instance-info.txt ./downloaded-info.txt
+   Result: Success - verified locally with cat downloaded-info.txt, full system info (OS, memory, disk, network) transferred correctly
