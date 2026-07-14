@@ -172,19 +172,19 @@ NANO file copy paste > so I did it notepad
 
 ### 1. Why use an SSH config file instead of typing the full command every time?
 
-[Your answer]
+Saves time with simple shortcuts and prevents typo error by entering wrong IP or Key
 
 ### 2. Why restrict SSH to your IP instead of 0.0.0.0/0?
 
-[Your answer]
+Block attackers and double layer defense
 
 ### 3. What did the blocked ping and port 3306 tests teach you about security groups?
 
-[Your answer]
+default deny rule and defense in depth
 
 ### 4. Why disable password authentication for SSH?
 
-[Your answer]
+Stops attacks and ensures connections can only made using secure.
 
 ---
 
@@ -192,11 +192,11 @@ NANO file copy paste > so I did it notepad
 
 **What was most challenging about this lab?**
 
-[Your reflection]
+Verifying that the firewall rules
 
 **What security practice will you always follow from now on?**
 
-[Your reflection]
+I will always restrict SSH traffic strictly to my specific public IP address instead of leaving it open to the entire internet (0.0.0.0/0).
 
 ---
 
@@ -216,5 +216,5 @@ NANO file copy paste > so I did it notepad
 
 ---
 
-**Completed By:** [Your Name]  
-**Date:** [Date]
+**Completed By:** Pragash KUMARAVEL
+**Date:** 14-07-2026
