@@ -146,7 +146,8 @@ Yes, this configuration is secure. SSH (port 22) is locked to a single IP, minim
 
 **Problems I ran into and how I fixed them:**
 
-[List them here, or write "None encountered"]
+NANO file copy paste > so I did it notepad
+
 
 ---
 
